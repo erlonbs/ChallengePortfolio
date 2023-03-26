@@ -1,0 +1,49 @@
+.experiencia__projeto {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 42px;
+}
+
+.experiencia__projeto--titulo {
+  font-family: 'Raleway', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: #464646;
+}
+
+.experiencia__projeto--subTitulo {
+  font-family: 'Raleway', cursive;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #464646;
+}
+
+.experiencia__botoes {
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 0.5rem;
+  text-align: start;
+  justify-content: space-around;
+}
+
+.experiencia__botoes--botao {
+  box-sizing: border-box;
+  border-color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  gap: 10px;
+}
+
+.experiencia__botoes--botao:hover {
+  background: #2a7ae4;
+  color: white;
+}

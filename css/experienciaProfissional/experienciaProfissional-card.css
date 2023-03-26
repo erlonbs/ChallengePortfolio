@@ -1,0 +1,16 @@
+.experiencia__card {
+  display: flex;
+
+justify-content: space-between;
+  width: 752px;
+  height: 406px;
+  border: 1px black;
+
+  margin-bottom: 2rem;
+}
+
+
+.experiencia__card--video {
+ width: 752px;
+ height: 406px;
+}

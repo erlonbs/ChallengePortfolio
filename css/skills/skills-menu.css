@@ -1,0 +1,31 @@
+.skills__menu {
+  display: flex;
+}
+
+.skills__menu:hover{
+
+}
+
+.skills__menu .skills__menu--icone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background: #ffffff;
+  width: 176px;
+  height: 174px;
+  border: 1rem;
+
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.skills__menu .skills__menu--icone:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 10px 4px #a2a8b6;
+}
+
+.skills__menu .skills__menu--icone .imagem {
+  width: 24px;
+  height: 37px;
+}

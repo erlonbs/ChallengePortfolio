@@ -1,0 +1,30 @@
+.hobbies__icones {
+  display: flex;
+  flex-direction: row;
+
+  
+}
+
+.hobbies__icones--icone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  gap: 8px;
+  width: 176px;
+  height: 174px;
+  background: #FFFFFF;
+  margin-left: 1em;
+  margin-bottom: 88px;
+}
+
+.hobbies__icones--icone:hover {
+  transition: 0.5s;
+  box-shadow: 0 0 10px 4px #a2a8b6;
+}
+
+
+.hobbies__icones--icone .imagem {
+  width: 24px;
+  height: 37px;
+}

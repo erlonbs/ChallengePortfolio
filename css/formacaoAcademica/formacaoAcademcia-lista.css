@@ -1,0 +1,44 @@
+.formacaoAcademica__lista {
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
+}
+
+.formacaoAcademica__lista--card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  border: 1rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 368px;
+  height: 286px;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+}
+
+.formacaoAcademica__lista--curso {
+  display: block;
+  text-align: start;
+}
+
+.formacaoAcademica__lista--card .imagem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+  width: 192px;
+  height: 130px;
+  margin-top: 78px;
+}
+
+
+.formacaoAcademica__lista--card .imagem:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}

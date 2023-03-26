@@ -1,0 +1,18 @@
+.menu__item {
+  display: flex;
+}
+
+.menu__item--icone {
+  flex-direction: row;
+  list-style: none;
+  font-size: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.menu__item--icone:hover {
+  transition: 0.4s;
+  box-shadow: 0 0 10px 4px #ffff;
+  font-size: x-large;
+}
