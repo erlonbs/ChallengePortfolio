@@ -1,0 +1,16 @@
+
+
+#botaoToTopo {
+  
+  display: flex;
+  position: fixed;
+  bottom: 70px;
+  right: 30px;
+
+  transform: translateY(100%);
+  transition: 5000ms;
+
+
+
+}
+

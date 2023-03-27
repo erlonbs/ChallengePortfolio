@@ -2,14 +2,18 @@ body {
   background: #f5f5f5;
   margin: 0;
 
+
+
 }
 
 .cabecalho {
-  width: 100vw;
+
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
- 
+position:fixed
+
+
+
 }
 
 

@@ -1,11 +1,12 @@
 
 .resumo__imagem {
   display: flex;
+
   border-radius: 100%;
   flex-direction: column;
   width: 290px;
   height: 268px;
   
-  
+
  
 }

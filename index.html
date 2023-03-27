@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="css/skills/skills-titulo.css" />
 
     <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="script.js" />
+
     <link rel="stylesheet" href="css/sobre/sobre-descricao.css" />
     <link rel="stylesheet" href="css/sobre/sobre.css" />
     <link rel="stylesheet" href="css/sobre/sobre-titulo.css" />
@@ -52,9 +52,11 @@
     <link rel="stylesheet" href="css/contato/contato-rodape.css">
     <link rel="stylesheet" href="css/contato/contato-imagem.css">
     <link rel="stylesheet" href="css/contato/contato-copyright.css">
+   
+    <link rel="stylesheet" href="/css/rodape/footer.css">
   </head>
   <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
       <nav class="menu">
         <svg
           class="menu__logo"
@@ -89,7 +91,7 @@
         </ul>
       </nav>
     </header>
-    <div class="resumo__container">
+    <div class="resumo__container" id="resumo__container">
       <div class="resumo">
         <h1 class="resumo__titulo">
           Olá, meu nome é Erlon Barbosa Sena e <br />construo páginas da web
@@ -213,7 +215,7 @@
                 <h1 class="experiencia__projeto--titulo">Decodificador de texto</h1>
                 <p class="experiencia__projeto--subTitulo">Challenge Alura Codificador</p>
             <div class="experiencia__botoes">
-                  <button class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/challenge_encrypt'>Repositório</a></button>
+                  <button type="button" class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/challenge_encrypt'>Repositório</a></button>
                   <button class="experiencia__botoes--botao"><a target="_blank" href='https://erlonbs.github.io/challenge_encrypt/'>Ver demo</a></button>
               </div>
             </div>
@@ -229,7 +231,7 @@
 
         <div class="experiencia__botoes">
 
-            <button  class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/challenge_encrypt'>Repositório</a></button>
+            <button type="submit" class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/challenge_encrypt'>Repositório</a></button>
               <button class="experiencia__botoes--botao">Ver demo</button>
 
           </div>
@@ -266,7 +268,7 @@
 
             </fieldset>
 
-            <button class="contato__dados--enviar">Enviar</button>
+            <button type="submit" class="contato__dados--enviar">Enviar</button>
 
           </form>
         </div>
@@ -277,6 +279,33 @@
         <p class="contato__copyright--texto">Desenvolvido por Erlon Barbosa Sena</p>
         <p class="contato__copyright--texto">2023</p>
       </section>
+      <a id="botaoToTopo" href="#cabecalho" >
+        <svg
+          width="80"
+          height="80"
+          viewBox="0 00 50 50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="20" cy="20" r="20" fill="#00856F" />
+          <path
+            d="M20 27V13"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13 20L20 13L27 20"
+            stroke="white"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
     </footer>
+   
+  <script src="script/script.js"></script>
   </body>
 </html>
