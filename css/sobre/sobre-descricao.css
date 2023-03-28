@@ -10,3 +10,14 @@
 
   line-height: 28px;
 }
+
+
+
+@media (min-width: 768px) {
+  .sobre__descricao {
+   display: flex;
+   flex-direction: column ;
+   font-size: 14px;
+   line-height: 20px;
+  }
+}

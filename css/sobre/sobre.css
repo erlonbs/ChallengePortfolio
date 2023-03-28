@@ -1,12 +1,20 @@
 .sobre {
-
   display: flex;
-  background: #EAF2FD;
+  background: #eaf2fd;
   width: 100vw;
 
   height: 353px;
-align-content: center;
-padding-top: 1%;
+  align-content: center;
+  padding-top: 1%;
+}
 
 
+@media (min-width: 768px) {
+  .sobre {
+   display: flex;
+   flex-direction: column ;
+padding: 30px;
+
+   
+  }
 }

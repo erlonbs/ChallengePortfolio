@@ -12,7 +12,7 @@ line-height: 26px;
 
 
 
-@media scren and (min-width:768px){
+@media  (min-width:768px){
 
   .resumo__descricao {
     font-size: 20px;
