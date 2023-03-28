@@ -25,12 +25,13 @@
 .formacaoAcademica__lista--curso {
   display: block;
   text-align: start;
+  margin-top: 0.5rem;
 }
 
 .formacaoAcademica__lista--card .imagem {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+
   align-items: center;
   width: 192px;
   height: 130px;
@@ -41,4 +42,5 @@
 .formacaoAcademica__lista--card .imagem:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+ 
 }

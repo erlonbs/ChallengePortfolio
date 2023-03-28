@@ -10,3 +10,13 @@
 
  
 }
+
+@media scren and (min-width:768px){
+
+  .resumo__imagem {
+   width: 126px;
+   height: 126px;
+
+  }
+
+}

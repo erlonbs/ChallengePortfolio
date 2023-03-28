@@ -1,8 +1,7 @@
 .contato__rodape {
   display: flex;
   flex-direction: column;
-  width: 1440px;
-  height: 788px;
+ 
 }
 
 

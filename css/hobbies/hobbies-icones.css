@@ -10,7 +10,7 @@
   flex-direction: column;
   justify-content: flex-end;
   padding: 1rem;
-  gap: 8px;
+  gap: 1px;
   width: 176px;
   height: 174px;
   background: #FFFFFF;
@@ -25,6 +25,6 @@
 
 
 .hobbies__icones--icone .imagem {
-  width: 24px;
-  height: 37px;
+  width: 33px;
+  height: 43px;
 }

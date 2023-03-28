@@ -1,20 +1,16 @@
-.contato__copyright  {
+.contato__copyright {
   display: flex;
-  width: 100vw;
-  height: 102px;
-justify-content: center;
-align-items: center;
-text-align: justify;
-flex-direction: column;
 
+  height: 102px;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  flex-direction: column;
 }
 
-
-.contato__copyright  .contato__copyright--texto{
-
-font-size: 16px;
-font-family: 'Raleway', cursive;
-font-style: normal;
-font-weight: 500;
-
+.contato__copyright .contato__copyright--texto {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
 }

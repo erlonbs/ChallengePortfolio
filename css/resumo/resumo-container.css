@@ -3,5 +3,13 @@
 
   flex-direction: column;
 
+}
+
+
+@media scren and (min-width:768px){
+.remumo {
+  display: flex;
+  flex-direction: column;
+}
 
 }

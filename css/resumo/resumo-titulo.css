@@ -1,10 +1,18 @@
-
 .resumo__titulo {
-  font-family: 'Raleway';
+  font-family: var(--raleway);
   font-size: 52px;
   font-weight: 700;
   color: #464646;
   align-self: stretch;
-  font-family: 'Raleway';
-font-style: normal;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+}
+
+@media scren and (min-width: 768px) {
+  .resumo__titulo  {
+    font-family: var(--raleway);
+    font-size: 25px;
+    text-align:justify;
+  }
 }

@@ -7,26 +7,31 @@
 }
 
 .contato__dados--titulo {
-  font-family: 'Raleway', cursive;
+  font-family: var(--raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 38px;
-
+  margin-top: 1rem;
   color: #464646;
+}
+
+.contato__dados--informacao {
+  font-family: var(--raleway);
+  font-size: 16px;
 }
 
 .contato__dados .formulario {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .formulario__iten {
   display: flex;
   width: 656px;
   height: 46px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .formulario__mensagem {

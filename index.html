@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https: //fonts.googleapis.com/css2?family= família= Raleway:wght@400;700 & stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Challenge Portifolio</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/cabecalho.css" />
@@ -134,33 +135,31 @@
         <div id="skills" class="skills">
           <h1 class="skills__titulo">Skills</h1>
           <ul class="skills__menu">
-            <li class="skills__menu--icone"><img src="/images/icones/html.svg" class="imagem" >Html5</li>           
-            <li class="skills__menu--icone"><img src="/images/icones/css.svg" class="imagem" >Css3</li>
-            <li class="skills__menu--icone"><img src="/images/icones/javaScript.svg" class="imagem" >Javascript</li>
-            <li class="skills__menu--icone"><img src="/images/icones/java.svg" class="imagem" >Java</li>
+            <li class="skills__menu--icone"><img src="/images/icones/html.svg" class="imagem" alt="Ícone do HTML5">Html5</li>           
+            <li class="skills__menu--icone"><img src="/images/icones/css.svg" class="imagem" alt="Ícone do CSS3" >Css3</li>
+            <li class="skills__menu--icone"><img src="/images/icones/javaScript.svg" class="imagem" alt="Ícone do JavaScript">Javascript</li>
+            <li class="skills__menu--icone"><img src="/images/icones/java.svg" class="imagem" alt="Ícone do Java" >Java</li>
           </ul>
         </div>
 
         <div class="hobbies">
           <h1 id="hobbies__titulo" class="hobbies__titulo">Hobbies</h1>
           <ul class="hobbies__icones">
-            <li class="hobbies__icones--icone"><img src="/images/icones/teclado.svg" class="imagem" >Tocar teclado</li>
-            <li class="hobbies__icones--icone"><img src="/images/icones/tv.svg" class="imagem" >Assistir Filmes</li>
-            <li class="hobbies__icones--icone"><img src="/images/icones/igreja.svg" class="imagem" >Igreja</li>
-            <li class="hobbies__icones--icone"><img src="/images/icones/icons8-xbox-controller-96.png" class="imagem" >Jogar</li>
-            <li class="hobbies__icones--icone"><img src="/images/icons8-car-roof-box-96.png" class="imagem" >Sair com a família</li>
+            <li class="hobbies__icones--icone"><img src="/images/icones/teclado.svg" class="imagem" alt="Ícone de um teclado musical" >Tocar teclado</li>
+            <li class="hobbies__icones--icone"><img src="/images/icones/tv.svg" class="imagem" alt="Ícone de uma TV">Assistir Filmes</li>
+            <li class="hobbies__icones--icone"><img src="/images/icones/igreja.svg" class="imagem" alt="Ícone de uma igreja" >Igreja</li>
+            <li class="hobbies__icones--icone"><img src="/images/icones/icons8-xbox-controller-96.png" class="imagem" alt="Ícone de um Joystick" >Jogar</li>
+            <li class="hobbies__icones--icone"><img src="/images/icons8-car-roof-box-96.png" class="imagem" alt="Ícone de carro viagem">Sair com a família</li>
           </ul>
         </div>
       </section>
 
       <section class="formacaoAcademica">
-
         <h1 id="formacaoAcademica-titulo" class="formacaoAcademica__titulo">Formação acadêmica</h1>
-
         <ul class="formacaoAcademica__lista">
           <li class="formacaoAcademica__lista--card">
                 <div  class="logo">
-                  <img class="imagem" src="/images/icones/logouff_vertical_azul.png">
+                  <img class="imagem" src="/images/icones/logouff_vertical_azul.png" alt="Logo da UFF" >
                  </div>  
                   <div class="formacaoAcademica__lista--curso">
                   <h2 class="formacaoAcademica__lista--nome">Tecnologia em Sistemas de Computação</h2>
@@ -170,8 +169,7 @@
         
           <li class="formacaoAcademica__lista--card">
         <div class="logo">
-          <img class="imagem" src="/images/icones/DevSuperior.png">                       
-
+           <img class="imagem" src="/images/icones/DevSuperior.png" alt="Logo da escola DevSuperior">                     
         </div>
 
         <div>
@@ -195,12 +193,10 @@
 
       <section class="experienciaProfissional">
         <h1 id="experienciaProfissional__titulo" class="experienciaProfissional__titulo">Experiência Profissional</h1>
-
-        <div class="experiencia__container">
-        
+        <div class="experiencia__container">        
             <div class="experiencia__card">     
-           <video width="752" height="406" controls="controls" autoplay="autoplay">
-            <source src="/videos/Challenge Encrypt Oracle + Alura.mp4" type="video/mp4">           
+                <video width="752" height="406" controls="controls" autoplay="autoplay">
+                 <source src="/videos/Challenge Encrypt Oracle + Alura.mp4" type="video/mp4">           
             </div>
             <div class="experiencia__projeto">
                 <h1 class="experiencia__projeto--titulo">Decodificador de texto</h1>
@@ -217,7 +213,7 @@
             <h1 class="experiencia__projeto--titulo">Portifólio</h1>
             <p class="experiencia__projeto--subTitulo">Challenge Alura Portifólio</p>
         <div class="experiencia__botoes">
-            <button type="submit" class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/challenge_encrypt'>Repositório</a></button>
+            <button type="submit" class="experiencia__botoes--botao"><a target="_blank" href='https://github.com/erlonbs/ChallengePortifolio'>Repositório</a></button>
               <button class="experiencia__botoes--botao">Ver demo</button>
           </div>
         </div>
@@ -237,14 +233,14 @@
 
         <div class="contato__dados">
           <h1 id="contato" class="contato__dados--titulo">Contato</h1>
-          <p>Quer entrar em contato comigo?<br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+          <p class="contato__dados--informacao">Quer entrar em contato comigo?<br>Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
           </p>
           <form action="./envio_concluido.html" class="formulario">
             <fieldset>
-              <input name="nome" type="text" placeholder="Nome" class="formulario__iten">
-              <input name="email" type="text" placeholder="Email" class="formulario__iten">
-              <input  name="assunto" type="text" placeholder="Assunto" class="formulario__iten">
-              <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Menssagem" class="formulario__mensagem"></textarea>
+              <input name="nome" type="text" placeholder="Nome" class="formulario__iten" required>
+              <input name="email" type="email" placeholder="Email" class="formulario__iten" required>
+              <input  name="assunto" type="text" placeholder="Assunto" class="formulario__iten" required>
+              <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Menssagem" class="formulario__mensagem" required></textarea>
             </fieldset>
             <button type="submit" class="contato__dados--enviar">Enviar</button>
           </form>
@@ -259,7 +255,7 @@
         <svg
           width="80"
           height="80"
-          viewBox="0 00 50 50"
+          viewBox="0 0 30 50"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >

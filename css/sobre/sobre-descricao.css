@@ -1,14 +1,12 @@
 .sobre__descricao {
-  font-family:  --raleway;
-    
-  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 500;
   font-size: 20px;
-  line-height: 19px;
 
   margin-top: 2rem;
 
-padding-right: 15%;
+  padding-right: 15%;
 
-align-self: stretch;
-line-height: 25px;
+  line-height: 28px;
 }
