@@ -17,7 +17,7 @@
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .resumo__redes  {
     display: flex;
     justify-content: space-between;

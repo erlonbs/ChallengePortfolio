@@ -1,5 +1,7 @@
 .skills__menu {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skills__menu .skills__menu--icone {
@@ -14,6 +16,7 @@
 
   margin-left: 1rem;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .skills__menu .skills__menu--icone:hover {
@@ -26,3 +29,26 @@
   height: 38px;
   margin-bottom: 0.5rem;
 }
+
+
+
+@media  (max-width:768px){
+
+  .skills__menu {
+   
+    justify-content: center;
+    justify-items: center;
+    padding: 3rem;
+
+}
+
+.skills__menu .skills__menu--icone {
+ 
+  width: 224px;
+  height: 118px;
+}
+
+
+}
+
+

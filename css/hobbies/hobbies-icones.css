@@ -1,6 +1,7 @@
 .hobbies__icones {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 
   
 }
@@ -15,7 +16,7 @@
   height: 174px;
   background: #FFFFFF;
   margin-left: 1em;
-  margin-bottom: 88px;
+  margin-bottom: 1rem;
 }
 
 .hobbies__icones--icone:hover {
@@ -27,4 +28,19 @@
 .hobbies__icones--icone .imagem {
   width: 33px;
   height: 43px;
+}
+
+
+@media (max-width:768px) {
+  .hobbies__icones {
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .hobbies__icones--icone {
+    width: 224px;
+    height: 118px;
+  }
+
+  
 }

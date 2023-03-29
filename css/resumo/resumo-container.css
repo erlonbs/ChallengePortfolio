@@ -6,7 +6,7 @@
 }
 
 
-@media scren and (min-width:768px){
+@media(max-width:768px){
 .remumo {
   display: flex;
   flex-direction: column;

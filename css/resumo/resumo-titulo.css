@@ -9,10 +9,10 @@
   font-style: normal;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .resumo__titulo  {
     font-family: var(--raleway);
     font-size: 28px;
-    text-align: start;
+
   }
 }

@@ -1,5 +1,5 @@
 .formacaoAcademica__titulo {
-  font-family: 'Raleway', cursive;
+  font-family: var(--raleway);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -10,4 +10,8 @@
   margin-top: 3rem;
 }
 
-
+@media (max-width:768px) {
+  .formacaoAcademica__titulo {
+    margin: 2rem;
+  }
+}

@@ -3,18 +3,18 @@
   background: #eaf2fd;
   width: 100vw;
 
-  height: 353px;
+  height: 363px;
   align-content: center;
-  padding-top: 1%;
+
 }
 
-
-@media (min-width: 768px) {
+@media (max-width: 768px)    {
   .sobre {
-   display: flex;
-   flex-direction: column ;
-padding: 30px;
-
-   
+    align-items: center;
+    height:400px;
+    flex-direction: column;
+  
+    
   }
 }
+
