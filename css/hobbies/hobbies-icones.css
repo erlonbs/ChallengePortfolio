@@ -44,3 +44,32 @@
 
   
 }
+
+
+@media (max-width: 360px) {
+  .hobbies__icones {
+     display: flex;
+     justify-content: space-between;
+     flex-direction: row;
+     align-items: flex-start;
+
+     align-self: stretch;
+     padding: 0.5rem;
+     
+  }
+
+  .hobbies__icones .hobbies__icones--icone{
+    width: 132px;
+    height:105px;
+
+    margin-left: 0.5rem;
+  }
+}
+
+
+.hobbies__icones.hobbies__icones--icone .imagem {
+  width: 15px;
+  height: 28px;
+
+
+}

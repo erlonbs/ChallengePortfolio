@@ -20,3 +20,13 @@
   }
 
 }
+
+@media(max-width:360px){
+  .remumo__imagem img {
+    display:block;
+    flex-direction: column;
+    width: 98px;
+    height: 98px;
+  }
+  
+  }

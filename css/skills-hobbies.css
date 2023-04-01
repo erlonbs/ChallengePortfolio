@@ -1,7 +1,19 @@
 .skills_hobbies {
-  display:block;
+  display:flex;
   flex-direction:column;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
  
 }
 
 
+@media (max-width:360px) {
+  .skills_hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+  }
+}

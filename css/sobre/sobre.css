@@ -3,18 +3,32 @@
   background: #eaf2fd;
   width: 100vw;
 
-  height: 363px;
+  height: 400px;
   align-content: center;
+  
 
 }
 
-@media (max-width: 768px)    {
+@media (max-width: 768px)   {
   .sobre {
     align-items: center;
     height:400px;
     flex-direction: column;
-  
+    padding: 5rem;
     
   }
 }
 
+
+
+@media (max-width: 360px)   {
+  .sobre {
+    display: flex;
+   gap: 10px;
+    align-items: center;
+   height: 500px;
+    flex-direction: column;
+    padding: 1rem;
+    
+  }
+}

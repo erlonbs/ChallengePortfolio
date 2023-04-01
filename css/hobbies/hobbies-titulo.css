@@ -14,3 +14,17 @@
     margin-bottom: 4rem;
   }
 }
+
+
+@media (max-width:360px){
+.hobbies__titulo{
+  font-size: 22px;     
+  line-height: 26px;
+    margin-top: 0.5rem;
+
+
+}
+  
+
+}
+

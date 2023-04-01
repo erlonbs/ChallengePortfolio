@@ -1,16 +1,19 @@
 body {
   background: #f5f5f5;
   margin: 0;
-
 }
 
 .cabecalho {
-
   display: flex;
   flex-direction: row;
- 
-  width: 100vw;
 
+  width: 100vw;
 }
 
+@media (max-width: 360px) {
+  .cabecalho {
+    display: flex;
 
+    width: 100vw;
+  }
+}

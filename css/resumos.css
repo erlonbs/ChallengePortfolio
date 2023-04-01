@@ -1,5 +1,6 @@
 .resumo__container {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
@@ -17,4 +18,18 @@
       display: flex;
       flex-direction: row;
     }
+}
+
+
+
+@media (max-width: 360px) {
+  .resumo__container{
+  display: flex;
+  
+   flex-direction:column;
+   align-items: center;
+   width: 100vw;
+   padding: 1rem;
+   flex-wrap: wrap-reverse;
+  }
 }

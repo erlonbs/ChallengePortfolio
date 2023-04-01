@@ -9,3 +9,21 @@
     
     
 }
+
+
+
+
+
+
+
+@media  (max-width:360px){
+
+    .skills__titulo {
+      font-size: 22px;     
+      line-height: 26px;
+        margin-top: 1rem;
+  
+    }
+  
+  }
+  

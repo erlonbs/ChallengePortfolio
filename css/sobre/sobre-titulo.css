@@ -23,3 +23,16 @@
    
   }
 }
+
+@media (max-width:360px) {
+  .sobre__titulo {
+    font-family: var(--raleway);
+   display: flex;
+    margin-left: 3%;
+   font-size: 22px;
+   line-height: 26px;
+  
+
+   
+  }
+}

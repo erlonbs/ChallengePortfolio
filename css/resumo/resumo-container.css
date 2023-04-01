@@ -13,3 +13,14 @@
 }
 
 }
+
+
+
+
+@media(max-width:360px){
+  .remumo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  }

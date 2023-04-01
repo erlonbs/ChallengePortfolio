@@ -10,13 +10,11 @@
   align-items: center;
   padding-left: 10%;
   padding-right: 10%;
+}
 
-
-
-  
-
-  
- 
-
-  
+@media (max-width: 360px) {
+  .menu {
+    padding: 0.5rem;
+    width: 100vw;
+  }
 }

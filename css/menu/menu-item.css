@@ -16,3 +16,17 @@
   box-shadow: 0 0 10px 4px #ffff;
   font-size: x-large;
 }
+
+
+@media (max-width:360px) {
+  .menu__item--icone {
+    font-size:0.6rem;
+    margin-left: 5px;
+    justify-content: space-between;
+
+
+  }
+
+} 
+
+  

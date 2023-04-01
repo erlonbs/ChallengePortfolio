@@ -26,3 +26,29 @@
 
   }
 }
+
+@media (max-width: 360px) {
+  .resumo__redes  {
+    display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+  padding: 0;
+justify-content: start;
+    
+  }
+
+  .resumo__redes--icone {
+    color: #464646;
+    font-size: 0.7rem;
+  }
+
+  .redes__icone--imagem {
+    padding: 0.5rem;
+    width: 20px;
+    height: 20px;
+  }
+
+  .redes__icone--imagem{
+    font-size: 0.7rem;
+  }
+}
