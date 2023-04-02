@@ -8,3 +8,9 @@
 
 }
 
+@media (max-width:768px) 
+{
+  .contato__imagem--image {
+   display: none;
+  }
+}

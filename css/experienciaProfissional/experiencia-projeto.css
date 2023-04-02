@@ -48,3 +48,15 @@
   background: #2a7ae4;
   color: white;
 }
+
+@media (max-width:768px){
+  .experiencia__botoes {
+    justify-content:flex-start;
+  }
+
+  .experiencia__projeto{
+   padding: 1rem;
+   
+  }
+ 
+}

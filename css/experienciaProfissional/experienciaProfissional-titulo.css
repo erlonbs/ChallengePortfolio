@@ -9,3 +9,11 @@
    margin-bottom: 2rem;
    
 }
+
+
+@media (max-width: 768px){
+   .experienciaProfissional__titulo{
+      font-size: 22px;
+      margin-bottom: 1rem;
+   }
+}
