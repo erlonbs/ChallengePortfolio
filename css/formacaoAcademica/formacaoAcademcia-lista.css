@@ -2,15 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
-
-}
-
-.formacaoAcademica__titulo {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-   
 }
 
 .formacaoAcademica__lista--card {
@@ -18,34 +9,19 @@
   flex-direction: column;
   margin-left: 1rem;
   border: 1rem;
- 
-  justify-content: center;
 }
 
 .logo {
   width: 368px;
   height: 286px;
   background: #ffffff;
+  background-size: 368px 286px;
+
   display: flex;
   justify-content: center;
-  align-self: flex-end;
-}
+  align-self: center;
 
-.formacaoAcademica__lista--curso {
-  display: block;
-  text-align: start;
-  margin-top: 0.5rem;
-}
-
-.formacaoAcademica__lista--nome {
-  font-size: 22px;
-  font-weight: 700;
-}
-
-.formacaoAcademica__lista--anoCurso {
-  font-size: 19px;
-  font-weight: 500;
-  padding-bottom: 1rem;
+  justify-content: center;
 }
 
 .formacaoAcademica__lista--card .imagem {
@@ -57,15 +33,32 @@
   height: 130px;
 }
 
+.formacaoAcademica__lista--curso {
+  font-family: var(--raleway);
+  color: #464646;
+  font-size: 20px;
+  display: block;
+  text-align: start;
+  margin-top: 0.5rem;
+}
+
+.formacaoAcademica__lista--nome {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.formacaoAcademica__lista--anoCurso {
+  font-size: 19px;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
 .formacaoAcademica__lista--card .imagem:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
 }
 
-@media (min-width: 768px) and (max-width:1024px){
-  
-
-
+@media (max-width: 768px) {
   .formacaoAcademica__lista--card {
     justify-content: center;
     justify-items: center;
@@ -85,6 +78,26 @@
     align-items: center;
     width: 84px;
     height: 58px;
+  }
+
+  .formacaoAcademica__lista--nome {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+  .formacaoAcademica__lista--anoCurso {
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media (max-width: 360px) {
+  .logo {
+    width: 296px;
+    height: 118px;
+
+    background-size: 190px 110px;
   }
 
   .formacaoAcademica__lista--nome {

@@ -12,6 +12,11 @@
   flex-direction: column;
 }
 
+.resumo__container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 }
 
 

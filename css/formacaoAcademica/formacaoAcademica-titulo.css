@@ -10,8 +10,18 @@
   margin-top: 2rem;
 }
 
+
 @media (max-width:768px) {
   .formacaoAcademica__titulo {
     margin-top: 1rem;
+  }
+}
+
+
+
+@media (max-width:360px) {
+  .formacaoAcademica__titulo{
+    font-size: 22px;
+    margin-top: 0.2rem;
   }
 }
