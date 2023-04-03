@@ -2,30 +2,23 @@
   display: inline-block;
 
   flex-direction: column;
-
 }
 
-
-@media(max-width:768px){
-.remumo {
-  display: flex;
-  flex-direction: column;
-}
-
-.resumo__container {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-}
-
-
-
-
-@media(max-width:360px){
+@media (max-width: 768px) {
   .remumo {
     display: flex;
     flex-direction: column;
   }
-  
+
+  .resumo__container {
+    display: flex;
+    flex-direction: row-reverse;
   }
+}
+
+@media (max-width: 360px) {
+  .remumo {
+    display: flex;
+    flex-direction: column;
+  }
+}

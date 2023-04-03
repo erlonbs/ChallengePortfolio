@@ -13,20 +13,31 @@
   width: 752px;
   height: 406px;
   align-items: center;
-
 }
 
-@media (max-width:768px) {
-
-  .experiencia__card{
+@media (max-width: 768px) {
+  .experiencia__card {
     margin: 1rem;
     justify-content: center;
   }
-video {
-  width: 710px;
-  height: 400px;
-  margin-top: 0;
-  align-items: center;
+  video {
+    width: 710px;
+    height: 400px;
+    margin-top: 0;
+    align-items: center;
+  }
 }
- 
+
+@media (max-width: 360px) {
+  .experiencia__card {
+    margin: 0rem;
+    width: 358px;
+    height: 310px;
+  }
+
+  video {
+    width: 345px;
+    height: 290px;
+    margin: 0;
+  }
 }

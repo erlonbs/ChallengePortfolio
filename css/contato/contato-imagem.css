@@ -1,16 +1,20 @@
 .contato__imagem {
- padding: 1rem;
+  padding: 1rem;
 }
 
 .contato__imagem--image {
   width: 464px;
   height: 593px;
-
 }
 
-@media (max-width:768px) 
-{
+@media (max-width: 768px) {
   .contato__imagem--image {
-   display: none;
+    display: none;
+  }
+}
+
+@media (max-width: 360px) {
+  .contato__imagem--image {
+    display: none;
   }
 }

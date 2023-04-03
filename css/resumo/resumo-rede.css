@@ -16,25 +16,21 @@
   height: 30px;
 }
 
-
 @media (max-width: 768px) {
-  .resumo__redes  {
+  .resumo__redes {
     display: flex;
     justify-content: space-between;
     text-align: start;
-    
-
   }
 }
 
 @media (max-width: 360px) {
-  .resumo__redes  {
+  .resumo__redes {
     display: flex;
-  align-items: center;
-  font-size: 0.7rem;
-  padding: 0;
-justify-content: start;
-    
+    align-items: center;
+    font-size: 0.7rem;
+    padding: 0;
+    justify-content: start;
   }
 
   .resumo__redes--icone {
@@ -48,7 +44,7 @@ justify-content: start;
     height: 20px;
   }
 
-  .redes__icone--imagem{
+  .redes__icone--imagem {
     font-size: 0.7rem;
   }
 }

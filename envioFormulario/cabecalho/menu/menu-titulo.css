@@ -1,0 +1,22 @@
+.menu__titulo {
+  display: flex;
+
+  color: #464646;
+  font-family: 'Raleway', cursive;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 2rem;
+}
+
+.menu__titulo:hover {
+  transition: 0.4s;
+  box-shadow: 0 0 10px 4px #ffff;
+  font-size: x-large;
+}
+
+@media (max-width: 360px) {
+  .menu__titulo {
+    flex-direction: column;
+    font-size: 0.6rem;
+  }
+}

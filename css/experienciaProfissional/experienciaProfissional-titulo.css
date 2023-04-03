@@ -1,19 +1,16 @@
 .experienciaProfissional__titulo {
-
-   font-family: 'Raleway ', cursive ;
-   font-weight: 700;
-   font-size: 2rem;
-   text-align: center;
-   color: #464646;
-   margin-top: 3rem;
-   margin-bottom: 2rem;
-   
+  font-family: 'Raleway ', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #464646;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
-
-@media (max-width: 768px){
-   .experienciaProfissional__titulo{
-      font-size: 22px;
-      margin-bottom: 1rem;
-   }
+@media (max-width: 768px) {
+  .experienciaProfissional__titulo {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
 }

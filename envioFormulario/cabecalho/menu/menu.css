@@ -1,0 +1,12 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100vw;
+  background-color: rgb(131, 198, 105);
+  padding: 32px 32px;
+
+  height: 48px;
+  align-items: center;
+}
+

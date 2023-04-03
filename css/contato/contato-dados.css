@@ -44,3 +44,51 @@
   height: 51px;
 }
 
+.contato__dados--enviar:hover {
+  background: #2a7ae4;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .contato__dados--enviar:hover {
+    background: #2a7ae4;
+    color: white;
+  }
+}
+
+@media (max-width: 360px) {
+  .contato__dados {
+    width: 360px;
+    padding: 0rem;
+    margin: 0;
+  }
+
+  .contato__dados--titulo {
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 1rem;
+  }
+
+  .formulario {
+    width: 360px;
+    justify-content: center;
+    margin-right: 1rem;
+  }
+  .contato__dados .formulario input {
+    width: 320px;
+    height: 30px;
+  }
+
+  .contato__dados .formulario textarea {
+    width: 320px;
+  }
+
+  .contato__dados--enviar {
+    width: 151px;
+    height: 40px;
+  }
+  .contato__dados--enviar:hover {
+    background: #2a7ae4;
+    color: white;
+  }
+}

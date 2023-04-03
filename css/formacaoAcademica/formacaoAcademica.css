@@ -1,22 +1,19 @@
 .formacaoAcademica {
   display: flex;
   flex-direction: column;
-  background: #EAF2FD;
+  background: #eaf2fd;
   padding: 3rem;
-
 }
 
-@media (max-width:768px) {
-  .formacaoAcademica{
+@media (max-width: 768px) {
+  .formacaoAcademica {
     padding: 2rem;
     gap: 32px;
   }
 }
 
-
-@media (max-width:360px) {
-  .formacaoAcademica{
+@media (max-width: 360px) {
+  .formacaoAcademica {
     padding: 1rem;
-
   }
 }

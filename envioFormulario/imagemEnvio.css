@@ -1,0 +1,12 @@
+.imagemEnvio {
+  display: flex;
+ justify-content: center;
+}
+
+.imagemEnvio--foto {
+  margin-top: 1rem;
+  width: 146px;
+  height: 146px;
+  align-items: center;
+  border-radius: 100%;
+}

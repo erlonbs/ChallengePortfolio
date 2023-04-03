@@ -1,7 +1,4 @@
-
-
 #botaoToTopo {
-  
   display: flex;
   position: fixed;
   bottom: 70px;
@@ -9,8 +6,11 @@
 
   transform: translateY(100%);
   transition: 5000ms;
-
-
-
 }
 
+@media (max-width:768px){
+  #botaoToTopo{
+   visibility: hidden;
+   transition: 500ms;
+  }
+}

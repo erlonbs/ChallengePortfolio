@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 768px) {
-  .resumo__titulo  {
+  .resumo__titulo {
     font-family: var(--raleway);
     font-size: 22px;
     line-height: 26px;
@@ -18,10 +18,10 @@
 }
 
 @media (max-width: 768px) {
-  .resumo__titulo  {
+  .resumo__titulo {
     font-family: var(--raleway);
     font-style: normal;
- 
+
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
