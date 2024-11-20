@@ -49,6 +49,11 @@
   color: white;
 }
 
+.experiencia__projeto--descricao{
+
+  font-size: 10px;
+}
+
 @media (max-width: 768px) {
   .experiencia__botoes {
     justify-content: flex-start;
